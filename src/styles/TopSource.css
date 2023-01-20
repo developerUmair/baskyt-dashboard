@@ -1,0 +1,108 @@
+.top-class {
+  width: 32%;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 15px;
+  position: relative;
+  padding: 20px;
+}
+
+.top-left,
+.top-right {
+  margin-top: 20px;
+}
+
+.left-inner {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.tag {
+  position: absolute;
+  background: transparent linear-gradient(180deg, #ff9500 0%, #ffd45e 100%) 0%
+    0% no-repeat padding-box;
+  padding: 5px 10px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  top: 0;
+  left: 0;
+}
+.top-img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50px;
+}
+
+.top-name {
+  font-size: 16px;
+  padding-left: 20px;
+  line-height: 20px;
+  width: 20px;
+  text-align: left;
+}
+
+.revMonth {
+  margin: 10px 0px;
+  font-size: 11px;
+  color: #707070;
+  text-transform: uppercase;
+}
+
+.revenue {
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.percentUp {
+  color: #4eb862;
+  font-size: 11px;
+  padding-left: 30px;
+}
+
+.totalRevenue {
+  font-size: 31px;
+  padding-bottom: 30px;
+}
+
+.orders-month {
+  font-size: 11px;
+  color: #707070;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.percentDown {
+  color: #ff134a;
+  font-size: 11px;
+  padding-left: 100px;
+}
+
+.orders {
+  font-size: 19px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .top-class {
+    margin: 10px 0px;
+    width: 89%;
+    padding: 10px;
+  }
+
+  .top-name {
+    padding-left: 10px;
+  }
+
+  .percentUp {
+    color: #4eb862;
+    font-size: 11px;
+    padding-left: 22px;
+  }
+
+  .percentDown {
+    padding-left: 80px;
+  }
+}

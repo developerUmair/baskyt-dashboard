@@ -1,0 +1,77 @@
+.home-wrapper{
+    margin: 20px 30px;
+    width: 90vw;
+}
+
+.filter-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter{
+    box-shadow: 0px 0px 10px #00000017;
+    color: #707070;
+    padding: 10px 15px;
+}
+
+.tqm-btn > button{
+    padding: 10px 50px;
+    border-radius: 50px;
+    background-color: #D4242A;
+    box-shadow: 0px 3px 6px #00000029;
+    border: none;
+    font-size: 16px;
+    color: white;
+}
+
+.section-2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.left{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.right{
+    width: 50%;
+}
+
+.section-3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.section-4{
+    width: 100%;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .home-wrapper{
+        margin: 20px 10px;
+    }
+
+    .filter-wrapper{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    
+.left{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.right{
+    width: 100%;
+}
+}

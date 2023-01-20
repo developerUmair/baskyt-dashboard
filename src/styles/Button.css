@@ -1,0 +1,19 @@
+.btn{
+    width: 120px;
+    padding: 12px 0px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#quality{
+    border-radius: 50px 0px 0px 50px;
+    background-color: #E11E25;
+    border: none;
+    color: white;
+}
+#performance{
+    border-radius: 0px 50px 50px 0px;
+    background-color: #FFFFFF;
+    border: none;
+    color: #606060;
+}

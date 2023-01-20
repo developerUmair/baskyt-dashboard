@@ -1,0 +1,45 @@
+.header-wrapper{
+    background-color: #283848;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 80px 10px 10px;
+}
+
+.logo-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo-section > img{
+    width: 60px;
+    height: 60px;
+}
+
+.hamburger > img{
+    padding-left: 20px;
+}
+
+.profile-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-section > img{
+    padding-right: 30px;
+}
+
+.profile > img{
+    width: 33px;
+    height: 33px;
+    border-radius: 50px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .header-wrapper{
+        padding: 10px;
+    }
+}

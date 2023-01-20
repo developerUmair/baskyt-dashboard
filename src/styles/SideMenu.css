@@ -1,0 +1,26 @@
+.sidebar-wrapper{
+    margin-top: 5px;
+    background-color: #283848;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.sidebar-wrapper img{
+    width: 100%;
+    height: auto;
+    margin: 10px 0px;
+}
+.sidebar-wrapper img:hover{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .sidebar-wrapper img{
+        width: auto;
+        height: auto;
+        margin: 10px 0px;
+    }
+  }
